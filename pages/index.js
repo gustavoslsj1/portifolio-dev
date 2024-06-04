@@ -1,20 +1,38 @@
-import Head from 'next/head'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
+import * as React from "react";
+import * as ReactDOM from "react-dom/client";
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+// import rotas
+import Skills from "../routes/Skills.js";
+import App from "./App.js";
+import Home from "../routes/Home.js"
+import About from "../routes/About.js"
 
-export default function Home() {
-  return (
-    <div className="container">
-      <Head>
-        <title>Next.js Starter!</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element:<App/>,
+    children:[
+      {
+        path: "/",
+        element:<Home/>
+      },
+      {
+        path: "/Skills",
+        element:<Skills/>
+      },
+      {
+        path: "/About",
+        element:<About/>
+      }
+    ]
+  },
+]);
 
-      <main>
-       <h1>oiiiii</h1>
-      </main>
-
-      <Footer />
-    </div>
-  )
-}
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <RouterProvider router={router} />
+  </React.StrictMode>
+);
