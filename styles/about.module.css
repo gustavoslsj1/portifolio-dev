@@ -3,6 +3,15 @@
     justify-content: center;
     align-items: center;
 }
+.container {
+    background-image: url("https://img.freepik.com/vetores-gratis/estilo-de-papel-3d-de-fundo_23-2148462688.jpg?size=626&ext=jpg");
+    background-size: cover;
+    padding: 2px;
+    display: grid;
+    width: 1000px;
+    min-height: 500px;
+    border-radius: 5%;
+  } 
 
 
 .web {
@@ -24,6 +33,25 @@
     animation: up 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
 }
 
+.navbar {
+    margin-right: 30px;
+    margin-top: 20px;
+    height: 20px;
+    width: 970px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+   
+}
+.home {
+    margin-right: 20px;
+    color: #012947;
+}
+
+.skills {
+    margin-right: 20px;
+    color: #012947;
+}
 
 .mobile {
     display: grid;
@@ -67,34 +95,7 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
-img {
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 1;
-    grid-row-end: 1;
-}
 
-h3 {
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 1;
-}
-
-p {
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 3;
-}
-
-
-img {
-    position: relative;
-    left: 20px;
-    height: 40px;
-    width: 40px;
-}
 
 @keyframes shadow-inset-tb {
     0% {
