@@ -8,7 +8,7 @@
     background-size: cover;
     padding: 2px;
     display: grid;
-    width: 1000px;
+    width: 100%;
     min-height: 500px;
     border-radius: 5%;
   } 
@@ -41,6 +41,7 @@
     display: flex;
     justify-content: end;
     align-items: end;
+ 
    
 }
 .home {
@@ -119,3 +120,29 @@
         transform: translateY(-100px);
     }
 }
+
+
+
+@media screen and (max-width: 1000px){
+    .container{
+      margin: auto;
+      width: 500px;
+    }
+
+    .gamer{
+        width: 125px;
+        height: 125px;
+    }
+    .mobile{
+        width: 125px;
+        height: 125px;
+    }
+    
+    .web{
+        width: 125px;
+        height: 125px;
+    }
+    .navbar{
+        width: 500px;
+    }
+  }
