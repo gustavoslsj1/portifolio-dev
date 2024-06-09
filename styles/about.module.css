@@ -8,8 +8,9 @@
     background-size: cover;
     padding: 2px;
     display: grid;
-    width: 100%;
+    width: 1000px;
     min-height: 500px;
+    max-height: 800px;
     border-radius: 5%;
   } 
 
@@ -126,23 +127,36 @@
 @media screen and (max-width: 1000px){
     .container{
       margin: auto;
-      width: 500px;
+      width: 400px;
+      min-height: 250px;
     }
 
     .gamer{
-        width: 125px;
-        height: 125px;
+        width: 100px;
+        height: 100px;
     }
     .mobile{
-        width: 125px;
-        height: 125px;
+        width: 100px;
+        height: 100px;
     }
     
     .web{
-        width: 125px;
-        height: 125px;
+        width: 100px;
+        height: 100px;
     }
     .navbar{
-        width: 500px;
+        width: 400px;
     }
+    
+@keyframes up {
+    0% {
+        width: 100px;
+        transform: translateY(0);
+    }
+
+    100% {
+        width: 125px;
+        transform: translateY(-40px);
+    }
+}
   }
