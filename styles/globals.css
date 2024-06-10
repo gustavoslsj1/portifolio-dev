@@ -53,6 +53,7 @@ p {
     grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 3;
+    color: #9e8b55;
 }
 
 
@@ -65,15 +66,18 @@ img {
 }
 
 @media screen and (max-width:1000px) {
+  /* body{
+    height: 1000px;
+  } */
   p{
-    font-size:10px
+    font-size:15px
   }
   img{
     height:60%;
     width: 50%;
   }
   h3{
-    font-size: 10px;
+    font-size: 15px;
   }
 }
 

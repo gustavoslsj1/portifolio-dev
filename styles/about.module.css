@@ -96,6 +96,11 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+.paragrafo{
+    margin-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+}
 
 
 
@@ -146,6 +151,9 @@
     }
     .navbar{
         width: 100%;
+    }
+    .paragrafo{
+        font-size: 15px;
     }
     
 @keyframes up {
