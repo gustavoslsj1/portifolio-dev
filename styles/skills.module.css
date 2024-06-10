@@ -36,6 +36,11 @@
     color: #012947;
 }
 
+.skills {
+    margin-right: 20px;
+    color: #012947;
+}
+
 .Skills{
     display: flex;
     justify-content: center;

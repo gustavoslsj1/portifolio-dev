@@ -4,6 +4,7 @@ export default function index() {
   return (
     <div className={styles.container} >
       <div className={styles.navbar}>
+        <Link href='/' className={styles.home} > home </Link>
         <Link href='/About' className={styles.about} > about </Link>
         <Link href='/Skills' className={styles.skills}> skills </Link>
       </div>
