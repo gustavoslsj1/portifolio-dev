@@ -7,7 +7,10 @@ export default function Skills() {
                     <h2 className={styles.h2}>Hard-Skills:</h2>
                     <ul className={styles.ul}>
                         <li>
-                            <p className={styles.paragrafo}>react - react native - javascript - typescript - python - sql</p>
+                            <p className={styles.paragrafo}>linguagens:javascript - typescript - python - sql</p>
+                        </li>
+                        <li>
+                            <p className={styles.paragrafo}>frameworks : react - react native - next.js </p>
                         </li>
                         <li>
                             <p className={styles.paragrafo}>ingles - intermediario </p>

@@ -24,7 +24,7 @@ export default function index() {
             </a>
           </li>
           <li>
-            <a href="https://www.instagram.com/gust_gusty_/">
+            <a href="https://www.instagram.com/lima_sj1/">
               <img src="https://img.icons8.com/?size=50&id=32309&format=png" alt="instagram" className={styles.icones}></img>
             </a></li>
           <li>
