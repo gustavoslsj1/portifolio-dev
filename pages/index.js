@@ -1,14 +1,12 @@
+import Navbar from '@components/Navbar'
 import styles from '../styles/index.module.css'
-import Link from 'next/link'
+import Head from 'next/head'
 export default function index() {
   return (
-    <div className={styles.container} >
-      <div className={styles.navbar}>
-        <Link href='/' className={styles.home} > home </Link>
-        <Link href='/About' className={styles.about} > about </Link>
-        <Link href='/Skills' className={styles.skills}> skills </Link>
-      </div>
       <div className={styles.Home}>
+        <Head>
+          <title>pagina principal</title>
+        </Head>
         <p className={styles.welcome}>bem-vindo</p>
         <h2 className={styles.texto}>Oi, eu sou</h2>
         <h1 className={styles.destacado}> Gustavo Lima</h1>
@@ -35,6 +33,5 @@ export default function index() {
             </a></li>
         </ul>
       </div>
-    </div>
   )
 }

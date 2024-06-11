@@ -1,12 +1,4 @@
-.container {
-    background-image: url("https://img.freepik.com/vetores-gratis/estilo-de-papel-3d-de-fundo_23-2148462688.jpg?size=626&ext=jpg");
-    background-size: cover;
-    padding: 2px;
-    display: grid;
-    width: 1000px;
-    min-height: 500px;
-    border-radius: 5%;
-  } 
+
   .navbar {
     margin-right: 30px;
     margin-top: 20px;

@@ -1,15 +1,7 @@
-
+import Navbar from "../components/Navbar";
 import styles from "../styles/about.module.css"
-import Link from "next/link";
-
-function About() {
+export default function About() {
     return (
-        <div className={styles.container} >
-            <div className={styles.navbar}>
-                <Link href='/' className={styles.home} > home </Link>
-                <Link href='/About' className={styles.about}> about </Link>
-                <Link href='/Skills' className={styles.skills}> skills </Link>
-            </div>
             <div className={styles.About} >
                 <div className={styles.bloco2} >
                     <div className={styles.web} >
@@ -28,11 +20,9 @@ function About() {
                         <p className={styles.paragrafo}> area de hobbie com 1 jogo simples feito na unreal engine motor de desenvolvimento de jogos,
                             com 1 curso feito na udemy
                         </p>
-                    </div>
                 </div>
             </div>
         </div>
     )
 }
 
-export default About;

@@ -1,13 +1,7 @@
-import Link from "next/link";
 import styles from '../styles/skills.module.css'
-function Skills() {
+import Navbar from "@components/Navbar";
+export default function Skills() {
     return (
-        <div className={styles.container} >
-            <div className={styles.navbar}>
-                <Link href='/' className={styles.home} > home </Link>
-                <Link href='/About' className={styles.about}> about </Link>
-                <Link href='/Skills' className={styles.skills}> skills </Link>
-            </div>
             <div className={styles.Skills}>
                 <div className={styles.hardSkill}>
                     <h2 className={styles.h2}>Hard-Skills:</h2>
@@ -33,11 +27,8 @@ function Skills() {
                             <p className={styles.paragrafo}>aprendizado rapido</p>
                         </li>
                     </ul>
-                </div>
             </div>
         </div>
 
     )
 }
-
-export default Skills;
